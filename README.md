@@ -24,5 +24,5 @@ A lightweight Java application that uses the ZXing ("Zebra Crossing") library to
 git clone https://github.com/mitaliiiiii/code-39-Barcode-decoder.git
 cd code39-barcode-decoder
 javac -cp "lib/*" -d bin src/Code39BarcodeDecoder.java - //compilation
-//echo "test img/barcode.png" | java -cp "lib/*;bin" Code39BarcodeDecoder-- if you are in windows
-//echo "test img/barcode.png" | java -cp "lib/*:bin" Code39BarcodeDecoder-- if you are in mac or linux
+echo "test img/barcode.png" | java -cp "lib/*;bin" Code39BarcodeDecoder//-- if you are in windows
+echo "test img/barcode.png" | java -cp "lib/*:bin" Code39BarcodeDecoder//-- if you are in mac or linux
